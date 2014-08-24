@@ -1,0 +1,35 @@
+a {
+  color: #00B7FF;
+}
+
+#url-table tbody tr td {
+    padding: 2px;
+}
+
+.control-panel-link {
+    cursor: pointer;
+}
+
+.control-panel {
+    padding-top: 7px;
+}
+
+
+.table-wrapper {
+    position: relative;
+}
+
+.url-table {
+    height: 700px;
+    overflow: auto;
+    margin-top: 20px;
+}
+
+#url-table table thead {
+    position: absolute;
+    top: -27px;
+}
+
+#table-row {
+    border-right: 1px solid gainsboro;
+}

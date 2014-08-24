@@ -1,0 +1,30 @@
+{
+  "name": "httpReplacer",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./app.js"
+  },
+  "dependencies": {
+    "MD5": "^1.2.1",
+    "body-parser": "~1.0.0",
+    "cookie-parser": "~1.0.1",
+    "debug": "~0.7.4",
+    "express": "~4.2.0",
+    "http-proxy": "^1.1.6",
+    "jade": "~1.3.0",
+    "jquery": "^2.1.1",
+    "lodash": "^2.4.1",
+    "morgan": "~1.0.0",
+    "react-grid": "git://github.com/prometheusresearch/react-grid",
+    "socket.io": "^1.0.6",
+    "socket.io-client": "^1.0.6",
+    "static-favicon": "~1.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.7",
+    "gulp-browserify": "^0.5.0",
+    "gulp-rename": "^1.2.0",
+    "reactify": "^0.14.0"
+  }
+}

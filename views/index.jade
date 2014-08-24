@@ -1,0 +1,34 @@
+extends layout
+
+block content
+  .navbar.navbar-default.navbar-static-top(role='navigation')
+    .container
+      .navbar-header
+        button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-collapse')
+          span(class='sr-only') Toggle navigation
+          span(class='icon-bar')
+          span(class='icon-bar')
+          span(class='icon-bar')
+        a.navbar-brand(href='#') Http Replacer
+      .container
+        #control-panel.navbar-collapse.collapse.in
+
+  .row
+    #table-row.col-xs-12.col-md-8
+      .table-wrapper
+        #url-table.url-table.table-responsive
+
+    #info-panel-row.col-xs-6.col-md-4
+      .info-panel-wrapper
+        ul.nav.nav-tabs(role="tablist")
+          li.active
+            a(href="#request_header", role="tab", data-toggle="tab") Request Header
+          li
+            a(href="#response_header", role="tab", data-toggle="tab") Response Header
+          li
+            a(href="#response_body", role="tab", data-toggle="tab") Response Body
+
+        .tab-content
+          #request_header.tab-pane.active foo bar
+          #response_header.tab-pane qaz qaz
+          #response_body.tab-pane paz paz
